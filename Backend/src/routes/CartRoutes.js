@@ -2,14 +2,14 @@ import express from 'express';
 import { addToCart, getCart, removeFromCart, updateCartItem } from '../controllers/CartController.js';
 import { requireSignIn } from '../middlewares/authMiddleware.js';
 
-const cartrouter = express.Router();
+const router = express.Router();
 
-cartrouter.post('/addcart',requireSignIn, addToCart);
-cartrouter.get('/getcart',requireSignIn, getCart);
-cartrouter.delete('/deletecart/:id',requireSignIn, removeFromCart);
-cartrouter.put('/updatecart/:id',requireSignIn, updateCartItem);
-
-
+router.post('/addcart',requireSignIn, addToCart);
+router.get('/getcart',requireSignIn, getCart);
+router.delete('/deletecart/:id',requireSignIn, removeFromCart);
+router.put('/updatecart/:id',requireSignIn, updateCartItem);
 
 
-export default cartrouter;
+
+
+export const cartRoutes = router;

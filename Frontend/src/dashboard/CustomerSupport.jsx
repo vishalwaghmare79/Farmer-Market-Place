@@ -42,11 +42,11 @@ const CustomerSupport = () => {
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-center gap-3">
               <FiPhone className="text-lg text-blue-500" />
-              <span>+91 7563086449</span>
+              <span>+91 8805232927</span>
             </li>
             <li className="flex items-center gap-3">
               <FiMail className=" text-blue-500" />
-              <span>mkchauhan300@gmail.com</span>
+              <span>waghmarevishal438@gmail.com</span>
             </li>
             <li className="flex items-center gap-3">
               <FiMapPin className="text-lg text-blue-500" />
@@ -57,7 +57,7 @@ const CustomerSupport = () => {
           {/* Additional Contact Options */}
           <div className="mt-4 flex flex-col sm:flex-row gap-4">
             <Link
-              to="https://wa.me/917563086449"
+              to="https://wa.me/918805232927"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-green-600 hover:text-green-700 transition"
@@ -65,7 +65,7 @@ const CustomerSupport = () => {
               <FaWhatsapp className="text-2xl" /> WhatsApp Chat
             </Link>
             <Link
-              to="https://www.instagram.com/manish_j4u/"
+              to="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-pink-500 hover:text-pink-700 transition"

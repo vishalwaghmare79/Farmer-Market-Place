@@ -37,15 +37,15 @@ const Footer = () => {
               <NavLink to="https://twitter.com" className="hover:text-green-300">
                 <FaTwitter className="text-2xl" />
               </NavLink>
-              <NavLink to="https://www.instagram.com/manish_j4u/profilecard/?igsh=NGo4ZzFmcjY2ZHg2" className="hover:text-green-300">
+              <NavLink to="https://www.instagram.com" className="hover:text-green-300">
                 <FaInstagram className="text-2xl" />
               </NavLink>
-              <NavLink to=  "mailto:mkchauhan300@.com" className="hover:text-green-300">
+              <NavLink to=  "mailto:waghmarevishal438@gmail.com" className="hover:text-green-300">
                 <FaEnvelope className="text-2xl" />
               </NavLink>
             </div>
-            <p className="mt-4 text-sm">Email: mkchauhan300@gmail.com</p>
-            <p className="text-sm">Phone:7563086449</p>
+            <p className="mt-4 text-sm">Email: waghmarevishal438@gmail.com</p>
+            <p className="text-sm">Phone:8805232927</p>
           </div>
         </div>
 
